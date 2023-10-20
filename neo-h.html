@@ -7,15 +7,15 @@
 <meta class="metaTagTop" name="description" content="">
 <meta class="metaTagTop" name="keywords" content="">
 <meta class="metaTagTop" name="author" content="">
-<meta class="metaTagTop" property="og:image" content="images/p1-After-cmp_1.png" id="social-image">
+<meta class="metaTagTop" property="og:image" content="neotonics/images/p1-After-cmp_1.png" id="social-image">
 <meta property="og:title" content="How This *Blue Egyptian Plant* Restored My Skin  Is 4x Times Better Than Botox">
 <meta property="og:description" content="">
 <meta property="og:url" content="https://bestofhealthbalancedlife.com/neo-h">
 <meta property="og:type" content="website">
-<link rel="stylesheet" media="screen" href="css/lander.css">
+<link rel="stylesheet" media="screen" href="neotonics/css/lander.css">
 <link rel="canonical" href="https://bestofhealthbalancedlife.com/neo-h">
-<link rel="stylesheet" href="css/all.css">
-<link rel="stylesheet" href="css/v4-shims.css">
+<link rel="stylesheet" href="neotonics/css/all.css">
+<link rel="stylesheet" href="neotonics/css/v4-shims.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald:400,700%7CDroid+Sans:400,700%7CRoboto:400,700%7CLato:400,700%7CPT+Sans:400,700%7CSource+Sans+Pro:400,600,700%7CNoto+Sans:400,700%7CPT+Sans:400,700%7CUbuntu:400,700%7CBitter:400,700%7CPT+Serif:400,700%7CRokkitt:400,700%7CDroid+Serif:400,700%7CRaleway:400,700%7CInconsolata:400,700" rel="stylesheet" type="text/css">
 <meta property="cf:funnel_id" content="QlBFS2NFOUQ3aXd3VGdaV1Jwdnk0Zz09LS11K3pGRmw2TXZ3Tmg2MFNpRnY2ajJ3PT0=--e9673f2b0553818aa243dd103fc5d7529ca6fc1f">
 <meta property="cf:page_id" content="VUJ5SGs1UUJoeUpnb25EYmZIZ2JZQT09LS14TmJDREw0ZGhkc2JpQVJ0N25RUWJnPT0=--388d19b1641a6bbdc8741b23b3e3223182a460ef">
@@ -26,52 +26,52 @@
 <meta property="cf:mode_id" content="1">
 <meta property="cf:time_zone" content="UTC">
 <meta property="cf:app_domain" content="app.clickfunnels.com">
-<script type="text/javascript" async="" src="js/vendor.js"></script><script async="" src="js/fbevents.js"></script><script src="//bestofhealthbalancedlife.com/assets/userevents/application.js" async="async"></script>
+<script type="text/javascript" async="" src="neotonics/js/vendor.js"></script><script async="" src="js/fbevents.js"></script><script src="//bestofhealthbalancedlife.com/assets/userevents/application.js" async="async"></script>
 <style>
     [data-timed-style='fade']{display:none}[data-timed-style='scale']{display:none}
   </style>
-<link rel="icon" type="image/png" href="images/Favicon_2.png">
+<link rel="icon" type="image/png" href="neotonics/images/Favicon_2.png">
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 <script>
-jQuery(document).ready(function($){
-    URLModifier('tid'); // replace TID to any key
-});
-function URLModifier(customKey)
-{
-var searchKeyWord = 'utm_campaign'; // replace utm_campaign to any key you want to search for
-var searchKeyWordUrl = getParamFromURL(searchKeyWord);
-if(searchKeyWordUrl)
-    {
-      $('a').each(function() {
-            var currentLinkUrl = $(this).attr('href');
-            if(typeof currentLinkUrl !== &quot;undefined&quot;) //Anchor Links
-            {
-              var modifiedUrl = currentLinkUrl+(currentLinkUrl.match(/\?/) ? '&amp;' : '?') + customKey + '=' + searchKeyWordUrl;
-        $(this).attr('href', modifiedUrl);
-            }
-            else // Image Links
-            {
-              var currentImgLinkUrl = $(this).attr('data-imagelink');
-                var modifiedImgUrl = currentImgLinkUrl+(currentImgLinkUrl.match(/\?/) ? '&amp;' : '?') + customKey + '=' + searchKeyWordUrl;
-        $(this).attr('data-imagelink', modifiedImgUrl);
-            }
-      });
-      $('img').each(function() {
-            var currentLinkUrl = $(this).attr('data-imagelink');
-            if(typeof currentLinkUrl !== &quot;undefined&quot;) //Anchor Links
-            {
-              var modifiedUrl = currentLinkUrl+(currentLinkUrl.match(/\?/) ? '&amp;' : '?') + customKey + '=' + searchKeyWordUrl;
-              $(this).attr('data-imagelink', modifiedUrl);
-            }
-      });
-    }
-}
-  function getParamFromURL(t)
+  jQuery(document).ready(function($){
+      URLModifier('tid'); // replace TID to any key
+  });
+  function URLModifier(customKey)
   {
-    var a=new RegExp(&quot;[?&amp;]&quot;+t+&quot;=([^&amp;#]*)&quot;).exec(window.location.href);
-    return null===a?null:a[1]
+  var searchKeyWord = 'utm_campaign'; // replace utm_campaign to any key you want to search for
+  var searchKeyWordUrl = getParamFromURL(searchKeyWord);
+  if(searchKeyWordUrl)
+      {
+        $('a').each(function() {
+              var currentLinkUrl = $(this).attr('href');
+              if(typeof currentLinkUrl !== "undefined") //Anchor Links
+              {
+                var modifiedUrl = currentLinkUrl+(currentLinkUrl.match(/\?/) ? '&' : '?') + customKey + '=' + searchKeyWordUrl;
+          $(this).attr('href', modifiedUrl);
+              }
+              else // Image Links
+              {
+                var currentImgLinkUrl = $(this).attr('data-imagelink');
+                  var modifiedImgUrl = currentImgLinkUrl+(currentImgLinkUrl.match(/\?/) ? '&' : '?') + customKey + '=' + searchKeyWordUrl;
+          $(this).attr('data-imagelink', modifiedImgUrl);
+              }
+        });
+        $('img').each(function() {
+              var currentLinkUrl = $(this).attr('data-imagelink');
+              if(typeof currentLinkUrl !== "undefined") //Anchor Links
+              {
+                var modifiedUrl = currentLinkUrl+(currentLinkUrl.match(/\?/) ? '&' : '?') + customKey + '=' + searchKeyWordUrl;
+                $(this).attr('data-imagelink', modifiedUrl);
+              }
+        });
+      }
   }
-</script>
+    function getParamFromURL(t)
+    {
+      var a=new RegExp("[?&]"+t+"=([^&#]*)").exec(window.location.href);
+      return null===a?null:a[1]
+    }
+  </script>
 
 <script>
 !function(f,b,e,v,n,t,s)
@@ -85,9 +85,8 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '292573343184066');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
-/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"/></noscript>
+
 <script type="text/javascript">function init(){for(var t=document.getElementsByTagName("img"),e=0;e<t.length;e++){var i=t[e].getAttribute("data-src");if(i){for(var n=t[e].parentElement,a=0;0==a&&n;)a=n.scrollWidth,n=n.parentElement;a&&0<i.indexOf("images.clickfunnels.com")&&(i="//bestofhealthbalancedlife.com/hosted/images/cdn-cgi/image/fit=scale-down,width="+a+",quality=75/"+i),t[e].setAttribute("src",i)}}}window.addEventListener("load",init);</script></head>
 <body data-affiliate-param="affiliate_id" data-show-progress="true">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none !important">
@@ -136,7 +135,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
 </div>
 </div>
 </div>
-<div class="closeLPModal"><img src="images/closemodal.png" alt="" data-src="https://assets.clickfunnels.com/images/closemodal.png"></div>
+<div class="closeLPModal"><img src="neotonics/images/closemodal.png" alt="" data-src="https://assets.clickfunnels.com/images/closemodal.png"></div>
 </div>
 <div class="dropZoneForSections ui-droppable" style="display: none;"><div class="dropIconr"><i class="fa fa-plus"></i></div></div>
 <style id="button_style_tmp_button-94931">#tmp_button-94931 .elButtonFlat:hover{background-color:#cf3323!important;}#tmp_button-94931 .elButtonBottomBorder:hover{background-color:#cf3323!important;}#tmp_button-94931 .elButtonSubtle:hover{background-color:#cf3323!important;}#tmp_button-94931 .elButtonGradient{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgb(222,76,61)),color-stop(1,#cf3323));background-image:-o-linear-gradient(bottom,rgb(222,76,61) 0%,#cf3323 100%);background-image:-moz-linear-gradient(bottom,rgb(222,76,61) 0%,#cf3323 100%);background-image:-webkit-linear-gradient(bottom,rgb(222,76,61) 0%,#cf3323 100%);background-image:-ms-linear-gradient(bottom,rgb(222,76,61) 0%,#cf3323 100%);background-image:linear-gradient(to bottom,rgb(222,76,61) 0%,#cf3323 100%);}#tmp_button-94931 .elButtonGradient:hover{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(1,rgb(222,76,61)),color-stop(0,#cf3323));background-image:-o-linear-gradient(bottom,rgb(222,76,61) 100%,#cf3323 0%);background-image:-moz-linear-gradient(bottom,rgb(222,76,61) 100%,#cf3323 0%);background-image:-webkit-linear-gradient(bottom,rgb(222,76,61) 100%,#cf3323 0%);background-image:-ms-linear-gradient(bottom,rgb(222,76,61) 100%,#cf3323 0%);background-image:linear-gradient(to bottom,rgb(222,76,61) 100%,#cf3323 0%);}#tmp_button-94931 .elButtonBorder{border:3px solid rgb(222,76,61)!important;color:rgb(222,76,61)!important;}#tmp_button-94931 .elButtonBorder:hover{background-color:rgb(222,76,61)!important;color:#FFF!important;}</style>
@@ -178,7 +177,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
 <div id="col-full-148-114" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
 <div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
 <div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_image-27453" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; outline: none; cursor: pointer;" data-element-theme="customized" aria-disabled="false">
-<img src="images/p1-After-cmp.png" class="elIMG ximg el_media_theme1" alt="" style="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/55/5a3ce783c34973b5d059342717971e/p1-After-cmp.png">
+<img src="neotonics/images/p1-After-cmp.png" class="elIMG ximg el_media_theme1" alt="" style="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/55/5a3ce783c34973b5d059342717971e/p1-After-cmp.png">
 </div>
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_paragraph-25885" data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
 <div class="ne elHeadline hsSize1 lh5 elMargin0 elBGStyle0 hsTextShadow0" data-bold="inherit" style="text-align: center;" data-gramm="false" contenteditable="false"><b>"If you had told me two months ago that my dark spots and fine wrinkles would disappear with such a simple solution, I would have laughed in your face."</b></div>
@@ -239,7 +238,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
 <div id="col-right-153" class="innerContent col_right ui-resizable col-md-3" data-col="right" data-trigger="none" data-animate="fade" data-delay="500" data-title="2nd column" style="outline: currentcolor;">
 <div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
 <div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_image-33381" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 30px; outline: none; cursor: pointer;" aria-disabled="false">
-<img src="images/vaseline.png" class="elIMG ximg" alt="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/31/86f2e4b5634dbfa4df2c4c26e90d1c/vaseline.png">
+<img src="neotonics/images/vaseline.png" class="elIMG ximg" alt="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/31/86f2e4b5634dbfa4df2c4c26e90d1c/vaseline.png">
 </div>
 </div>
 </div>
@@ -267,7 +266,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
 <div id="col-full-175-149" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
 <div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="padding: 0 10px">
 <div class="de elImageWrapper de-image-block elMargin0 ui-droppable elAlign_center de-editable" id="img-95012" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer;" data-element-theme="customized" aria-disabled="false">
-<img src="images/p1-Before-cmp.png" class="elIMG ximg el_media_theme1" alt="" style="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/1b/5f46bdbba641eaba56406fd605e222/p1-Before-cmp.png">
+<img src="neotonics/images/p1-Before-cmp.png" class="elIMG ximg el_media_theme1" alt="" style="" width="200" data-src="//bestofhealthbalancedlife.com/hosted/images/1b/5f46bdbba641eaba56406fd605e222/p1-Before-cmp.png">
 </div>
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="headline-95182" data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; outline: none; cursor: pointer;" aria-disabled="false">
 <div class="ne elHeadline hsSize1 lh5 elMargin0 elBGStyle0 hsTextShadow0" data-bold="inherit" style="text-align: center;" data-gramm="false" contenteditable="false"><b>I always looked tired</b></div>
@@ -417,7 +416,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
 </div>
 </div>
 <div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="img-56247" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 30px; outline: none; cursor: pointer;" aria-disabled="false" data-element-theme="customized" data-imagelink="https://hop.clickbank.net/?affiliate=mmcouraads&amp;vendor=neotonics&amp;cbpage=tsl&amp;affop=1">
-<img src="images/banner_img.jpg" class="elIMG ximg el_media_theme1 shadow30" alt="" width="" style="" height="" data-imagelink="https://hop.clickbank.net/?affiliate=mmcouraads&amp;vendor=neotonics&amp;cbpage=tsl&amp;affop=1" data-src="//bestofhealthbalancedlife.com/hosted/images/c4/f75a7e78fc45328d2f9fd0b029d9a9/banner_img.jpg">
+<img src="neotonics/images/banner_img.jpg" class="elIMG ximg el_media_theme1 shadow30" alt="" width="" style="" height="" data-imagelink="https://hop.clickbank.net/?affiliate=mmcouraads&amp;vendor=neotonics&amp;cbpage=tsl&amp;affop=1" data-src="//bestofhealthbalancedlife.com/hosted/images/c4/f75a7e78fc45328d2f9fd0b029d9a9/banner_img.jpg">
 </div>
 <div class="de elBTN elAlign_center elMargin0 elButtonBlock ui-droppable de-editable" id="tmp_button-24674-172" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 30px; outline: none; cursor: pointer;" data-element-theme="customized" aria-disabled="false">
 <a href="https://hop.clickbank.net/?affiliate=mmcouraads&amp;vendor=neotonics&amp;cbpage=tsl&amp;affop=1" class="elButton elButtonSize1 elButtonColor1 elButtonRounded elButtonPadding2 elBtnVP_10 elButtonCorner3 elBtnHP_25 elBTN_b_1 elButtonShadowN1 elButtonTxtColor1 elBTNone elButtonBlock elButtonFull" style="color: rgb(255, 255, 255); background: #30a05c;; font-size: 20px;" rel="noopener noreferrer" id="undefined-202">
@@ -602,7 +601,7 @@ src="https://www.facebook.com/tr?id=292573343184066&ev=PageView&noscript=1"
     window.CFAppDomain = "app.clickfunnels.com"
     window.domainIsCFInternal = "false" == "true"
   </script>
-<script src="js/lander.js"></script>
+<script src="neotonics/js/lander.js"></script>
 <div id="fb-root"></div>
 <script async="">
 window.addEventListener('load', function(){
@@ -1076,7 +1075,7 @@ window.addEventListener('load', function(){
       })();
     </script>
 <script type="text/javascript">function getURLParameter(e){return decodeURIComponent((RegExp(e+"=(.+?)(&|$)").exec(location.search)||[,null])[1])}function getURLParameterExact(e){for(var t=window.location.search.substring(1).split("&"),n=0;n<t.length;n++){var r=t[n].split("=");if(r[0]==e)return r[1]}}</script><script type="text/javascript">window.addEventListener("load",function(){$(function(){"null"!=getURLParameter("email")&&($('input[name="contact[email]"]').val(getURLParameterExact("email")),$("[name=email]").val(getURLParameterExact("email"))),"null"!=getURLParameter("name")&&($('input[name="contact[name]"]').val(getURLParameterExact("name")),$("[name=name]").val(getURLParameterExact("name"))),"null"!=getURLParameter("first_name")&&($('input[name="contact[first_name]"]').val(getURLParameter("first_name")),$("[name=first_name]").val(getURLParameter("first_name"))),"null"!=getURLParameter("last_name")&&($('input[name="contact[last_name]"]').val(getURLParameter("last_name")),$("[name=last_name]").val(getURLParameter("last_name"))),"null"!=getURLParameter("address_1")&&($('input[name="contact[address_1]"]').val(getURLParameter("address")),$("[name=address_1]").val(getURLParameter("address_1"))),"null"!=getURLParameter("address_2")&&($('input[name="contact[address_1]"]').val(getURLParameter("address")),$("[name=address_2]").val(getURLParameter("address_2"))),"null"!=getURLParameter("city")&&($('input[name="contact[city]"]').val(getURLParameter("city")),$("[name=city]").val(getURLParameter("city"))),"null"!=getURLParameter("state")&&($('input[name="contact[state]"]').val(getURLParameter("state")),$("[name=state]").val(getURLParameter("state"))),"null"!=getURLParameter("zip")&&($('input[name="contact[zip]"]').val(getURLParameter("zip")),$("[name=zip]").val(getURLParameter("zip"))),"null"!=getURLParameter("phone")&&($('input[name="contact[phone]"]').val(getURLParameter("phone")),$("[name=phone]").val(getURLParameter("phone")))})});</script>
-<script type="text/javascript" src="js/pushcrew.js" async="async"></script><meta name="can_calculate_taxes" content="false"><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" data-cf-beacon="{" rayid":"8194932499421cc6","version":"2023.10.0","token":"405b708a9b0242e88fda34dc27903686"}"="" crossorigin="anonymous"></script>
+<script type="text/javascript" src="neotonics/js/pushcrew.js" async="async"></script><meta name="can_calculate_taxes" content="false"><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" data-cf-beacon="{" rayid":"8194932499421cc6","version":"2023.10.0","token":"405b708a9b0242e88fda34dc27903686"}"="" crossorigin="anonymous"></script>
 
 
 </body></html>
